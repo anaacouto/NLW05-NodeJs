@@ -5,8 +5,10 @@ import { v4 as uuid } from "uuid";
 class User {
   @PrimaryColumn()
   id: string;
+
   @Column()
   email: string;
+
   @CreateDateColumn()
   created_at: Date;
 
