@@ -126,7 +126,7 @@ body {
 
 .text_support {
   border: 1px solid #cec9c9;
-  max-height: 500px;
+  max-height: 400px;
   overflow-y: scroll;
   /* border-bottom: 0px; */
 }
@@ -269,8 +269,8 @@ input[type="text"]:focus {
 }
 
 .email {
-  float: left;
-  width: 350px;
+  width: 400px;
+  margin-bottom: 30px;
 }
 
 .admin_send_message {
